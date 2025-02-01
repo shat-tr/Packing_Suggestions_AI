@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+  font-family: 'Fira Code', monospace;
+  background-image: url("https://wallpapercave.com/wp/yRzA3uZ.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+/* Container */
+.container {
+  margin: auto;
+  background-color: #9c88a386;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: #333;
+  height: auto;
+  margin: 20px auto;
+}
+
+.form-group {
+  margin-right: 25px;
+}
+
+/* Headings */
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Groups */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Temperature Forecast for the day */
+#forecast {
+  margin-top: 20px;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input Fields */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #faf6f6;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  background:linear-gradient(to right ,#007bff , #00c6ff);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+
+button:hover {
+  background:linear-gradient(to right ,#007bff , #00c6ff);
+}
+
+/* Output Display */
+#output {
+  margin-top: 20px;
+  padding: 10px;
+  background: #e9ecef;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: left;
+}
+
+/* Controls Section */
+.controls {
+  margin-top: 20px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
